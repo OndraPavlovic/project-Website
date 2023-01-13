@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        {% load static %}
+        <meta charset="UTF-8">
+        <meta name="description" content="Python programming for data analysis" />
+        <meta name="keywords" content="Python Django BI SQL data AI" />
+        <meta name="author" content="Ondra Pavlovic" />
+        <link rel="shortcut icon" href="images/logo.png" />
+        <link rel="stylesheet" href="{% static 'css/styl.css' %}" type="text/css" />
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type = "text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>OndraPavlovic - Home</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="flex_box">
+                    <div class="nav_item"><a href={% url "website:index" %}>Domů</a></div>
+                    <div class="nav_item"><a href={% url "website:about" %}>O mně</a></div>
+                    <div class="nav_item"><a href={% url "chronicle:ch_index" %}>Kronika</a></div>
+                    <div class="nav_item"><a href={% url "website:contact" %}>Kontakt</a></div>
+                </div>
+            </nav>
+        </header>
+        
+        <article>
+            {% block content %}
+
+            {% endblock %} 
+        </article>
+            
+        <footer>
+            Copyright &copy;OndraPavlovic 2023
+        </footer>
+    </body>
+</html>
