@@ -3,6 +3,7 @@
 Project description:
 
 Personal website created in Python framework Django.
+
 Website has 4 parts:
 - 1: HOME
 - 2: ABOUT
