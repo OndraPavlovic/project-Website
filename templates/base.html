@@ -3,25 +3,35 @@
     <head>
         {% load static %}
         <meta charset="UTF-8">
-        <meta name="description" content="Python programming for data analysis" />
+        <meta name="description" content="Web development Data analysis" />
         <meta name="keywords" content="Python Django BI SQL data AI" />
         <meta name="author" content="Ondra Pavlovic" />
-        <link rel="shortcut icon" href="images/logo.png" />
-        <link rel="stylesheet" href="{% static 'css/styl.css' %}" type="text/css" />
-        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type = "text/css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="{% static 'website/images/snake.png' %}" />
+        <link rel="stylesheet" href="{% static 'website/styl.css' %}" type="text/css" />
+        <link rel="stylesheet" href="{% static 'website/css/bootstrap.min.css' %}" type = "text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>OndraPavlovic - Home</title>
+        <title>OndraPavlovic</title>
     </head>
     <body>
         <header>
-            <nav>
-                <div class="flex_box">
-                    <div class="nav_item"><a href={% url "website:index" %}>Domů</a></div>
-                    <div class="nav_item"><a href={% url "website:about" %}>O mně</a></div>
-                    <div class="nav_item"><a href={% url "chronicle:ch_index" %}>Kronika</a></div>
-                    <div class="nav_item"><a href={% url "website:contact" %}>Kontakt</a></div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+              <div class="container-fluid">
+                <a class="navbar-brand" href={% url "website:index" %}>
+                    <img src="{% static 'website/images/snake.png' %}" width="30" height="30" class="d-inline-block align-top" alt="logo">
+                    <strong>OndraPavlovic</strong></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span><b>MENU</b>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link" href={% url "website:index" %}><strong>HOME</strong></a>
+                    <a class="nav-item nav-link" href={% url "website:about" %}><strong>ABOUT</strong></a>
+                    <a class="nav-item nav-link" href={% url "chronicle:ch_index" %}><strong>CHRONICLE</strong></a>
+                    <a class="nav-item nav-link" href={% url "website:contact" %}><strong>CONTACT</strong></a>
+                  </div>
                 </div>
+              </div>  
             </nav>
         </header>
         
@@ -32,7 +42,11 @@
         </article>
             
         <footer>
-            Copyright &copy;OndraPavlovic 2023
+            <small>Copyright &copy;OndraPavlovic 2023</small>
         </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
