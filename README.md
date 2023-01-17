@@ -14,7 +14,7 @@ Screenshots:
 
 HOME page:
 
-<img width="221" alt="image" src="https://user-images.githubusercontent.com/119850119/212883141-f6e64cf7-7052-4633-81d5-506a223b6690.png">
+<img width="227" alt="image" src="https://user-images.githubusercontent.com/119850119/212898767-9e89475e-8d6e-4e33-bf6a-4ec61b6029e5.png">
 
 ABOUT page:
 
