@@ -22,7 +22,7 @@ ABOUT page:
 
 CHRONICLE - index page:
 
-<img width="228" alt="image" src="https://user-images.githubusercontent.com/119850119/212893550-3d050256-38a4-499b-81ae-93b0b0569e9a.png">
+<img width="227" alt="image" src="https://user-images.githubusercontent.com/119850119/212898400-d15f54cc-f0b5-40ab-8561-be708ab59f6b.png">
 
 CHRONICLE - detail page:
 
