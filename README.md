@@ -14,8 +14,12 @@ Screenshots:
 
 HOME page:
 
-<img width="223" alt="image" src="https://user-images.githubusercontent.com/119850119/212858471-5df1be58-3bbf-4c8f-9d38-b1787982f4bf.png">
+<img width="221" alt="image" src="https://user-images.githubusercontent.com/119850119/212883141-f6e64cf7-7052-4633-81d5-506a223b6690.png">
 
 ABOUT page:
 
 <img width="226" alt="image" src="https://user-images.githubusercontent.com/119850119/212882352-4f312041-c54c-4595-9b32-587e179e7ba0.png">
+
+CHRONICLE - RECORDS page:
+
+<img width="228" alt="image" src="https://user-images.githubusercontent.com/119850119/212883288-39bee0fe-e872-4ca1-8768-e3c6ca086f62.png">
