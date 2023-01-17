@@ -22,4 +22,8 @@ ABOUT page:
 
 CHRONICLE - RECORDS page:
 
-<img width="228" alt="image" src="https://user-images.githubusercontent.com/119850119/212883288-39bee0fe-e872-4ca1-8768-e3c6ca086f62.png">
+<img width="228" alt="image" src="https://user-images.githubusercontent.com/119850119/212893550-3d050256-38a4-499b-81ae-93b0b0569e9a.png">
+
+CONTACT page>
+
+<img width="227" alt="image" src="https://user-images.githubusercontent.com/119850119/212893489-0ba67b83-2293-4799-a97b-7a0d2586409e.png">
