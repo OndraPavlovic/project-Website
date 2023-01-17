@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 {% block content %}
     <div>
         <header>
@@ -8,10 +9,50 @@
     
         <section>
             <div>
-                <p>xxx xxx</p>
-                <p>xxx xxx</p>
-                <p>xxx xxx</p>
-                <p>xxx xxx</p>                                        
+                <table id="skills">
+                    <tr class="center">
+                        <td>
+                            <img src="{% static 'website/images/html.png' %}" width="50" alt="html" />
+                        </td>
+                        <td>
+                            <img src="{% static 'website/images/python.png' %}" width="50" alt="python" />
+                        </td>
+                        <td>
+                            <img src="{% static 'website/images/sql.png' %}" width="50" alt="sql" />
+                        </td>
+                    </tr>
+                    <tr class="center">
+                        <td>
+                            <h2>HTML</h2>
+                            <p>I build responsive websites.</p>
+                        </td>
+                        <td>
+                            <h2>Python</h2>
+                            <p>I create apps in Django.</p>
+                        </td>
+                        <td>
+                            <h2>SQL</h2>
+                            <p>I understand SQL.</p>
+                        </td>
+                    </tr>
+                </table>
+                
+                <p>Below you can see examples of my work:</p>
+
+                <div id="reference">
+                    <a href="{% static 'website/images/website.png' %}" title="website" rel="lightbox[reference]">
+                        <img src="{% static 'website/images/website.png' %}" width="16%" alt="website" />
+                    </a>
+                    <a href="{% static 'website/images/chronicle_detail.png' %}" title="chronicle_d" rel="lightbox[reference]">
+                        <img src="{% static 'website/images/chronicle_detail.png' %}" width="16%" alt="chronicle_d" />
+                    </a>2
+                    <a href="{% static 'website/images/chronicle_admin.png' %}" title="chronicle_a" rel="lightbox[reference]">
+                        <img src="{% static 'website/images/chronicle_admin.png' %}" width="16%" alt="chronicle_i" />
+                    </a>
+                    <a href="{% static 'website/images/insurance.png' %}" title="insurance" rel="lightbox[reference]">
+                        <img src="{% static 'website/images/insurance.png' %}" width="16%" alt="insurance" />
+                    </a>
+                </div>
             </div>                                             
         </section>           
     </div>   
